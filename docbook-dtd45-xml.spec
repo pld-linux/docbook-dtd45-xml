@@ -3,7 +3,7 @@
 # - use XML ISO entities from sgml-common
 #
 Summary:	XML/SGML DocBook DTD 4.4
-Summary(pl.UTF-8):   XML/SGML DocBook DTD 4.4
+Summary(pl.UTF-8):	XML/SGML DocBook DTD 4.4
 %define ver	4.4
 Name:		docbook-dtd44-xml
 Version:	1.0
