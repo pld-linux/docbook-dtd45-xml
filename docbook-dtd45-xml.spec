@@ -2,17 +2,17 @@
 # todo:
 # - use XML ISO entities from sgml-common
 #
-Summary:	XML/SGML DocBook DTD 4.4
-Summary(pl.UTF-8):	XML/SGML DocBook DTD 4.4
-%define ver	4.4
-Name:		docbook-dtd44-xml
+Summary:	XML/SGML DocBook DTD 4.5
+Summary(pl.UTF-8):	XML/SGML DocBook DTD 4.5
+%define ver	4.5
+Name:		docbook-dtd45-xml
 Version:	1.0
-Release:	2
+Release:	1
 Vendor:		OASIS
 License:	Free
 Group:		Applications/Publishing/XML
 Source0:	http://www.oasis-open.org/docbook/xml/%{ver}/docbook-xml-%{ver}.zip
-# Source0-md5:	cbb04e9a700955d88c50962ef22c1634
+# Source0-md5:	03083e288e87a7e829e437358da7ef9e
 URL:		http://www.oasis-open.org/docbook/
 BuildRequires:	libxml2-progs
 BuildRequires:	rpm-build >= 4.0.2-94
