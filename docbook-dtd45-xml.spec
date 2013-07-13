@@ -17,11 +17,10 @@ URL:		http://www.oasis-open.org/docbook/
 BuildRequires:	libxml2-progs
 BuildRequires:	rpm-build >= 4.0.2-94
 BuildRequires:	unzip
-PreReq:		libxml2
-PreReq:		sgml-common
 Requires(post,preun):	/usr/bin/install-catalog
 Requires(post,preun):	/usr/bin/xmlcatalog
 Requires:	libxml2-progs >= 2.4.17-6
+Requires:	sgml-common
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -34,11 +33,15 @@ DocBook is an XML/SGML vocabulary particularly well suited to books
 and papers about computer hardware and software (though it is by no
 means limited to only these applications).
 
+This package contains DocBook 4.5 XML DTD.
+
 %description -l pl.UTF-8
 DocBook DTD jest zestawem definicji dokumentów XML/SGML przeznaczonych
 do tworzenia dokumentacji technicznej. Stosowany jest do pisania
 podręczników systemowych, instrukcji jak i wielu innych ciekawych
 rzeczy.
+
+Ten pakiet zawiera wersję DocBook 4.5 XML.
 
 %prep
 %setup -q -c
